@@ -19,7 +19,7 @@ Scripts produce individual figure for the analysis. Each file contains limited d
 
 ## Data Availability
 
-The terms of use of data from the Facebook Data for Good program prohibit unauthorised distribution. Data is available from the Facebook Data for Good Partner Program by application.
+The terms of use of data from the Facebook Data for Good Program prohibit unauthorised distribution. Data is available from the Facebook Data for Good Partner Program by application.
 
 Boundary data for UK administrative geographies is available from the UK Government [Open Geography Portal](https://geoportal.statistics.gov.uk/). Administrative Datasets used in this study:
 
