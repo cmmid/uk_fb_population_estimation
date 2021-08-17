@@ -2,8 +2,11 @@
 Code supporting the paper "Population disruption: estimating population-level movement in the UK during the COVID-19 pandemic
 ", Gibbs et al.
 
-## Structure
-Code files are located in the `src` directory.
+## Installation
+
+This repository contains source code used in this research paper.
+
+All code was written in `R (3.6.3)`. Individual code files are located in the `src` directory.
 
 Folders correspond to the sections of the analysis as they are presented in the publication:
 
@@ -15,7 +18,7 @@ Folders correspond to the sections of the analysis as they are presented in the 
 
 ## Documentation
 
-Scripts produce individual figure for the analysis. Each file contains limited documentation providing information about the function of that script.
+Scripts produce individual figures for the analysis. Each file contains documentation providing information about the function of that script.
 
 ## Data Availability
 
@@ -28,3 +31,20 @@ Boundary data for UK administrative geographies is available from the UK Governm
 * Middle-layer Super Output Areas (2011)
 
 Tile boundaries were extracted using the [pyquadkey2](https://pypi.org/project/pyquadkey2/) library.
+
+## Dependencies
+
+This project was written in `R (3.6.3)` and relies on the following R packages:
+
+* `tidyverse (1.3.0)`
+* `ggplot2 (3.3.3)`
+* `sf (0.9.6)`
+* `ggpubr (0.2.5)`
+* `deSolve (1.28)`
+* `data.table (1.13.2)`
+* `here (0.1)`
+* `dplyr (1.0.2)`
+
+## Contributions
+
+Have questions or find an issue with this code? Please [open an issue](https://github.com/cmmid/uk_fb_population_estimation/issues/new/choose).
